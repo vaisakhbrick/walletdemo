@@ -7,6 +7,8 @@ import Root from '../screens/Root'
 import ConnectedDapps from '../screens/ConnectedDapps'
 import { NavigationConstants } from '../constants/Constants'
 import Ionicons from '@expo/vector-icons/Ionicons';
+import Settings from '../screens/Settings'
+
 
 
 const Navigation = () => {
@@ -67,6 +69,7 @@ const HomeFlow = () => {
             headerShown: false
         }}>
             <HomeStack.Screen name={NavigationConstants.HomeFlow} component={Home} />
+            <HomeStack.Screen name={NavigationConstants.Settings} component={Settings} />
         </HomeStack.Navigator>
     )
 }

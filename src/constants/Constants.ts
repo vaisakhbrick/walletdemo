@@ -6,5 +6,6 @@ export enum NavigationConstants {
     Home = "Home",
     HomeFlow = "HomeFlow",
     ConnectedDApps = "Connected DApps",
-    Root = "Root"
+    Root = "Root",
+    Settings = "Settings"
 }
