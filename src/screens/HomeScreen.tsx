@@ -6,7 +6,6 @@ import SignModal from "../Components/Modal/SignModal";
 import SendTransactionModal from "../Components/Modal/SendTransactionModal";
 import SignTypedDataModal from "../Components/Modal/SignTypedDataModal";
 import Ionicons from '@expo/vector-icons/Ionicons';
-import Spacer from "../Components/Atoms/Spacer";
 import { navigate } from "../helpers/navigationhelpers/NavigationHelpers";
 import { NavigationConstants } from "../constants/Constants";
 
